@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Street 101 Dera — BBQ, Karahi &amp; More</title>
+<meta name="description" content="Street 101 Dera brings the authentic taste of Dera Ismail Khan to Lahore — BBQ, Karahi, Biryani, Burgers and more. Dining, take away and delivery.">
+
+<!-- Google Fonts: Fraunces (display), Manrope (body), Space Mono (labels & prices) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= HEADER / NAV ================= -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#hero" class="logo">Street <span>101</span> Dera</a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#menu" class="nav-link">Menu</a>
+      <a href="#gallery" class="nav-link">Gallery</a>
+      <a href="#testimonials" class="nav-link">Reviews</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <a href="#contact" class="btn btn-brass nav-cta">Reserve a Table</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="hero">
+  <div class="hero-embers" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <div class="hero-content">
+    <p class="eyebrow reveal">Dining &middot; Take Away &middot; Delivery</p>
+    <h1 class="hero-title reveal">
+      The Taste of<br> Dera <em>Begins Here.</em>
+    </h1>
+    <p class="hero-sub reveal">
+      Experience the authentic taste of Dera Ismail Khan with delicious BBQ,
+      Karahi, Biryani, Burgers and refreshing drinks.
+    </p>
+    <div class="hero-actions reveal">
+      <a href="#menu" class="btn btn-brass">View the Menu</a>
+      <a href="#contact" class="btn btn-ghost">Reserve a Table</a>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-cue" aria-label="Scroll to next section">
+    <span class="scroll-cue-line"></span>
+    <span class="scroll-cue-text">Scroll</span>
+  </a>
+</section>
+
+<!-- scorch-mark divider -->
+<div class="scorch-divider" aria-hidden="true">
+  <svg viewBox="0 0 1200 60" preserveAspectRatio="none"><path d="M0,20 C150,60 300,0 450,25 C600,50 750,5 900,30 C1050,50 1150,15 1200,25 L1200,60 L0,60 Z"/></svg>
+</div>
+
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+  <div class="about-inner">
+    <div class="about-visual reveal">
+      <div class="visual-block visual-block--main" role="img" aria-label="Chef tending an open wood fire"></div>
+      <div class="visual-block visual-block--accent" role="img" aria-label="Fresh herbs and olives"></div>
+      <div class="stat-card">
+        <span class="stat-number">9</span>
+        <span class="stat-label">years tending<br>the same hearth</span>
+      </div>
+    </div>
+
+    <div class="about-copy">
+      <p class="eyebrow reveal">Our Philosophy</p>
+      <h2 class="section-title reveal">Three ingredients,<br>used well.</h2>
+      <p class="reveal">
+        Street 101 Dera started as a single charcoal grill on a busy street corner and a
+        conviction that most dishes have too much going on. We buy whatever the
+        butchers bring in that morning, grill it hard, and get out of its way.
+      </p>
+      <p class="reveal">
+        Every plate that leaves the kitchen has touched the fire — grilled, roasted,
+        smoked, or licked with flame at the very end. It's a slower way to cook.
+        We think it's the only way that tastes honest.
+      </p>
+
+      <ul class="about-list reveal">
+        <li><strong>Live-fire only</strong> — charcoal grill, tandoor, zero shortcuts</li>
+        <li><strong>Fresh daily</strong> — meat and spices sourced every morning</li>
+        <li><strong>Family-style plates</strong> — built for a table that shares</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MENU ================= -->
+<section class="menu" id="menu">
+  <div class="section-head">
+    <p class="eyebrow reveal">The Menu</p>
+    <h2 class="section-title reveal">Fed by fire.</h2>
+    <p class="section-sub reveal">A living menu — hearty portions meant for the middle of the table.</p>
+  </div>
+
+  <div class="menu-tabs reveal" id="menuTabs">
+    <button class="menu-tab active" data-category="all">All</button>
+    <button class="menu-tab" data-category="starters">Starters</button>
+    <button class="menu-tab" data-category="mains">BBQ &amp; Karahi</button>
+    <button class="menu-tab" data-category="fastfood">Fast Food</button>
+    <button class="menu-tab" data-category="drinks">Drinks</button>
+  </div>
+
+  <div class="menu-grid" id="menuGrid">
+<div class="menu-item">
+    <img src="images/BBQ and Tikka.jpg" alt="Tikka Boti">
+
+    <h3>Tikka Boti</h3>
+
+    <p>Soft and creamy chicken cubes grilled to perfection.</p>
+
+    <span class="price">Rs. 850</span>
+</div>
+
+    <article class="menu-item reveal" data-category="starters">
+      <div class="menu-item-top">
+        <img src="images/Seekh Kebeb.webp" alt="Seekh Kebab">
+
+        <h3>Seekh Kabab</h3>
+        <span class="price">Rs. 850</span>
+      </div>
+      <p>Minced beef skewers, charcoal-grilled, served with naan</p>
+    </article>
+
+   <div class="menu-item">
+    <img src="images/karahi.avif" alt="Chicken Karahi">
+
+    <h3>Chicken Karahi</h3>
+
+    <p>Traditional Chicken Karahi.</p>
+
+    <span class="price">Rs. 2200</span>
+</div>
+    <article class="menu-item reveal" data-category="mains">
+      <div class="menu-item-top">
+        <img src="images/Mutton Karahi.jpg" alt="Mutton Karahi">
+        <h3>Mutton Karahi</h3>
+        <span class="price">Rs. 3200</span>
+      </div>
+      <p>Slow-cooked mutton, rich tomato masala</p>
+    </article>
+
+    <article class="menu-item reveal" data-category="mains">
+      <div class="menu-item-top">
+        <img src="images/BBQ Paratha.jpg" alt="BBQ Paratha">
+        <h3>BBQ Paratha</h3>
+        <span class="price">Rs. 650</span>
+      </div>
+      <p>Creamy marinated chicken, grilled to perfection</p>
+    </article>
+
+    <article class="menu-item reveal" data-category="mains">
+      <img class="menu-item-img" src="images/sajji.jpg" alt="Sajji" loading="lazy">
+      <div class="menu-item-top">
+        <h3>Sajji</h3>
+        <span class="price">Rs. 2200</span>
+      </div>
+      <p>Whole roasted chicken, Peshawari style, minimal spice</p>
+    </article>
+
+    <div class="menu-item">
+    <img src="images/zinger burger.avif" alt="Zinger Burger">
+
+    <h3>Zinger Burger</h3>
+
+    <p>Delicious crispy chicken burger.</p>
+
+    <span class="price">Rs. 550</span>
+</div>
+
+    <article class="menu-item reveal" data-category="fastfood">
+      <img class="menu-item-img" src="images/pizza.avif" alt="Pizza" loading="lazy">
+      <div class="menu-item-top">
+        <h3>Pizza</h3>
+        <span class="price">Rs. 1800</span>
+      </div>
+      <p>Wood-fired crust, mozzarella, house tomato sauce</p>
+    </article>
+
+    <article class="menu-item reveal" data-category="fastfood">
+      <img class="menu-item-img" src="images/loaded fries.webp" alt="Loaded Fries" loading="lazy">
+      <div class="menu-item-top">
+        <h3>Loaded Fries</h3>
+        <span class="price">Rs. 650</span>
+      </div>
+      <p>Crispy fries, cheese sauce, spicy chicken bits</p>
+    </article>
+
+    <article class="menu-item reveal" data-category="drinks">
+      <div class="menu-item-top">
+        <img src="images/margarita.avif" alt="Mint Margarita">
+
+        <h3>Mint Margarita</h3>
+        <span class="price">Rs. 350</span>
+      </div>
+      <p>Refreshing house-made mint and lime cooler</p>
+    </article>
+
+  </div>
+</section>
+
+<!-- scorch-mark divider (flipped) -->
+<div class="scorch-divider scorch-divider--flip" aria-hidden="true">
+  <svg viewBox="0 0 1200 60" preserveAspectRatio="none"><path d="M0,20 C150,60 300,0 450,25 C600,50 750,5 900,30 C1050,50 1150,15 1200,25 L1200,60 L0,60 Z"/></svg>
+</div>
+
+<div class="gallery-grid" id="galleryGrid">
+
+  <button class="gallery-item reveal" data-caption="Chicken Karahi">
+    <img src="images/karahi.avif" alt="Chicken Karahi">
+  </button>
+
+  <button class="gallery-item reveal" data-caption="Chicken Tikka">
+    <img src="images/BBQ and Tikka.jpg" alt="Chicken Tikka">
+  </button>
+
+  <button class="gallery-item reveal" data-caption="Zinger Burger">
+    <img src="images/Smoky Zinger Burger.jpg" alt=" Smoky Zinger Burger">
+  </button>
+
+  <button class="gallery-item reveal" data-caption="Chicken Fajita Pizza">
+    <img src="images/pizza.avif" alt="Chicken Fajita Pizza">
+  </button>
+
+  <button class="gallery-item reveal" data-caption="Chicken Sajji">
+    <img src="images/sajji.jpg" alt="Chicken Sajji">
+  </button>
+
+  <button class="gallery-item reveal" data-caption="Mint Margarita">
+    <img src="images/margarita.avif" alt="Mint Margarita">
+  </button>
+
+</div>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <div class="contact-copy reveal">
+      <p class="eyebrow">Visit Us</p>
+      <h2 class="section-title">Come sit<br>by the fire.</h2>
+      <ul class="contact-details">
+        <li><strong>Address</strong><span>654 G block, beside LDA sports Complex, Sabzazar Block G Sabzazar Housing Scheme Phase 1 &amp; 2, Lahore, 54000, Pakistan</span></li>
+        <li><strong>Hours</strong><span>Tue–Sun, 5:00 PM – 12:00 AM · Closed Mondays</span></li>
+        <li><strong>Phone</strong><span>+92 347 2101101</span></li>
+        <li><strong>Email</strong><span>street101.pk@gmail.com</span></li>
+      </ul>
+
+      
+    <iframe
+    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d13604.777013445613!2d74.24717995541992!3d31.5188243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sstreet%201o1%20dera%20sbazazar!5e0!3m2!1sen!2s!4v1783749157627!5m2!1sen!2s"
+    width="100%"
+    height="450"
+    style="border:0; border-radius:15px;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="strict-origin-when-cross-origin">
+</iframe>
+
+    <form class="contact-form reveal" id="contactForm" novalidate>
+      <h3>Request a Reservation</h3>
+
+      <div class="form-row">
+        <div class="form-field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required>
+          <span class="form-error" id="err-name"></span>
+        </div>
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          <span class="form-error" id="err-email"></span>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-field">
+          <label for="date">Date</label>
+          <input type="date" id="date" name="date" required>
+          <span class="form-error" id="err-date"></span>
+        </div>
+        <div class="form-field">
+          <label for="guests">Guests</label>
+          <select id="guests" name="guests">
+            <option>2 guests</option>
+            <option>3 guests</option>
+            <option>4 guests</option>
+            <option>5+ guests</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label for="message">Message (optional)</label>
+        <textarea id="message" name="message" rows="4" placeholder="Dietary notes, occasion, seating preference…"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-brass form-submit">Send Request</button>
+      <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <a href="#hero" class="logo">Street <span>101</span> Dera</a>
+    <nav class="footer-nav">
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <p class="footer-note">&copy; <span id="year"></span> Street 101 Dera. All rights reserved.</p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">&uarr;</button>
+
+<script src="script.js"></script>
+</body>
+</html>
